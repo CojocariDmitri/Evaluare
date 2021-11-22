@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orar USARB</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="schedule-text">
+            Orarul cursurilor
+        </div>
+        <div id="logo">
+            <img id="logo-usarb" src="assets/logoUsarb.jpg" alt="LogoUniversitate">
+        </div>
+    </header>
+
+    <section class="choice-panel">
+        <button>
+            Grupe
+        </button>
+        <button>
+            Profesori
+        </button>
+        <button>
+            Aule
+        </button>
+    </section>
+
+    <section id="search-by-name">
+        <form action="http://orar.usarb.md" target="_blank">
+            <input type="text">
+        </form>
+    </section>
+
+    <section id="select-day-of-week">
+        <label for="select-day"> Alege ziua: &nbsp</label>
+        <select name="select-day" id="select-day">
+            <option value="Luni">Luni</option>
+            <option value="Marti">Marti</option>
+            <option value="Miercuri">Miercuri</option>
+            <option value="Joi">Joi</option>
+            <option value="Vineri">Vineri</option>
+            <option value="Sambata">Sambata</option>
+            <option value="Duminica">Duminica</option>
+        </select>
+    </section>
+
+    <section id="select-week-of-study">
+        <label for="select-week"> Saptamana: &nbsp</label>
+        <select name="select-week" id="select-week">
+            <option value="1">Saptamana 1</option>
+            <option value="2">Saptamana 2</option>
+            <option value="3">Saptamana 3</option>
+            <option value="4">Saptamana 4</option>
+            <option value="5">Saptamana 5</option>
+            <option value="6">Saptamana 6</option>
+            <option value="7">Saptamana 7</option>
+        </select>
+    </section>
+
+    <section id="schedule-table">
+        <table border="5">
+            <tr>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Luni</td>
+                <td>H</td>
+                <td>E</td>
+                <td>L</td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Marti</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>L</td>
+                <td>Z</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Miercuri</td>
+                <td>I</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Joi</td>
+                <td></td>
+                <td>W</td>
+                <td>A</td>
+                <td>N</td>
+                <td>N</td>
+                <td>A</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Vineri</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>D</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sambata</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>I</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Duminica</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>E</td>
+            </tr>
+        </table>
+    </section>
+
+    <aside class="timetable">
+        <div class="week-names">
+            <div>monday</div>
+            <div>tuesday</div>
+            <div>wednesday</div>
+            <div>thursday</div>
+            <div>friday</div>
+            <div class="weekend">saturday</div>
+            <div class="weekend">sunday</div>
+        </div>
+
+        <div class="time-interval">
+            <div>8:00 - 9:30</div>
+            <div>9:45 - 11:15</div>
+            <div>11:30 - 13:00</div>
+            <div>13:15 - 14:45</div>
+            <div>15:00 - 16:30</div>
+            <div>16:45 - 18:15</div>
+            <div>18:30 - 20:00</div>
+        </div>
+
+        <div class="content">
+            <div>
+                <div class="accent-orange-gradient">Programarea Bazelor<br>Prelegeri<br>conf. univ., dr. Moglan
+                    D.<br>videoconferinta
+                </div>
+            </div>
+            <div class="accent-cyan-gradient">Limba engleza<br>Laborator (Sb.1, Sb.2)<br>videoconferinta</div>
+            <div class="accent-purple-gradient">Generarea Aplicatiilor<br>Laborator (Sb.1)<br>asist. univ.Gorea
+                A.<br>videoconferinta</div>
+            <div class="accent-green-gradient">Motematica<br>Seminar<br>prof. Ciobanu I.<br>videoconferinta</div>
+            <div>
+                <div class="accent-pink-gradient">Paginarea Proiectarilor Web<br>Prelegeri<br>conf. univ., dr.Moglan
+                    D.<br>videoconferinta</div>
+            </div>
+            <div class="weekend"></div>
+            <div class="weekend"></div>
+            <div class="accent-orange-gradient">Discretarea structurilor<br>Prelegeri<br>dr., lect. univ. L.
+                Popov<br>videoconferinta</div>
+            <div class="accent-cyan-gradient">Programarea Bazelor<br>Laborator (Sb.1)<br>asist. univ.Skutniţki
+                O.<br>videoconferinta</div>
+            <div class="accent-purple-gradient">Paginarea Proiectarilor Web<br>Laborator (Sb.1)<br>asist. univ.Chilat
+                S.<br>videoconferinta</div>
+            <div>
+                <div class="accent-green-gradient">Limba engleza<br>Laborator (Sb.1, Sb.2)<br>videoconferinta</div>
+            </div>
+            <div class="accent-pink-gradient">Programarea Bazelor<br>Evaluare Periodica<br>conf. univ., dr.Moglan
+                D.<br>videoconferinta
+            </div>
+            <div class="weekend"></div>
+            <div class="weekend"></div>
+            <div>
+                <div class="accent-orange-gradient">Programarea Bazelor<br>Laborator (Sb.2)<br>asist. univ.Skutniţki
+                    O.<br>videoconferinta</div>
+            </div>
+            <div class="accent-cyan-gradient">Programarea Bazelor<br>Laborator (Sb.1)<br>asist. univ.Skutniţki
+                O.<br>videoconferinta </div>
+            <div>
+                <div class="accent-purple-gradient">Paginarea Proiectarilor Web<br>Laborator (Sb.1)<br>asist.
+                    univ.Chilat
+                    S.<br>videoconferinta</div>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="weekend"></div>
+            <div class="weekend"></div>
+            <div class="accent-orange-gradient">Generarea aplicatiilor<br>Evaluare periodica<br>asist. univ.Gorea
+                A.<br>videoconferinta</div>
+            <div class="accent-cyan-gradient">Generarea aplicatiilor<br>Laborator (Sb.1)<br>asist. univ.Gorea
+                A.<br>videoconferinta</div>
+            <div class="accent-purple-gradient">Motematica<br>Seminar<br>prof. Ciobanu I.<br>videoconferinta</div>
+            <div class="accent-green-gradient">Discretarea structurilor<br>Seminar<br>asist. univ. Ticau
+                V.<br>videoconferinta</div>
+            <div class="accent-pink-gradient">Generarea aplicatiilor<br>Laborator (Sb.1)<br>asist. univ.Gorea
+                A.<br>videoconferinta</div>
+            <div class="weekend"></div>
+            <div class="weekend"></div>
+            <div>
+                <div></div>
+            </div>
+            <div class="accent-cyan-gradient">Limba engleza<br>Evaluare Periodica<br>videoconferinta</div>
+            <div class="accent-purple-gradient">Generarea aplicatiilor<br>Laborator (Sb.1)<br>asist. univ.Gorea
+                A.<br>videoconferinta</div>
+            <div></div>
+            <div class="accent-pink-gradient">Generarea aplicatiilor<br>Laborator (Sb.1)<br>asist. univ.Gorea
+                A.<br>videoconferinta</div>
+            <div class="weekend"></div>
+            <div class="weekend"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="weekend"></div>
+            <div class="weekend"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </aside>
+</body>
+
+</html>
