@@ -82,7 +82,7 @@ table td {
 }
 
 aside {
-  margin: 0;
+  margin-top: 20px;
   font-family: "Karla";
   color: black;
   text-align: center;
@@ -93,8 +93,8 @@ aside {
   grid-template-areas: ". week" "time content";
   grid-template-columns: 120px;
   grid-template-rows: 60px;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .timetable .accent-pink-gradient {
@@ -194,6 +194,8 @@ aside {
   color: whitesmoke;
   text-transform: uppercase;
   font-size: 12px;
+  width: 100%;
+  height: 100%;
 }
   
 .timetable .week-names > div {
